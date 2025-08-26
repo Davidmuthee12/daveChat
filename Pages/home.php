@@ -89,4 +89,5 @@
         </div>
     </div>
 </div>
+<!-- create a merge request -->
 <?php include '../Partials/footer/footer.php'; ?>
