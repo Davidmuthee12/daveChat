@@ -1,0 +1,110 @@
+body{
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    background:  #f0f2f5;
+}
+.aside{
+    width: 30%;
+    height: 100dvh;
+}
+.main{
+    width: 70%;
+    height: 100dvh;
+}
+.search{
+    border-radius: 16px;
+}
+.avatar{
+    width: 40px;
+    height: 40px;
+}
+.avatar img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.card{
+    border-radius: 16px;
+}
+.placeHolder{
+    /* justify-content: center; */
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.logo{
+    width: 120px;
+    height: 120px;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.chatWindow{
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+.chatAvatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.chatAvatar img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.chatHeader{
+    height: 10%;
+    width: 100%;
+}
+.chatMessages{
+    display: flex;
+    flex-direction: column;
+    background-image: url('../images/cover4.jpg');
+    height: 80%;
+    width: 100%;
+}
+.message-input{
+    height: 10%;
+    width: 100%;
+}
+.msg-input{
+    border-radius: 16px;
+}
+.inputAction{
+    background: none;
+    border: none;
+}
+.inputAction i {
+    font-size: medium;
+}
+.message{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    border-radius: 16px;
+    justify-content: center;
+    margin: 10px;
+}
+.message.sent{
+    align-self: flex-end;
+    background: #bb2b6e;
+    right: 0;
+}
+.message.received{
+    align-self: flex-start;
+    background: #35cdd8;
+    left: 0;
+}
+.message .text {
+  margin-bottom: 3px;
+}
+.message span {
+  font-size: 11px;
+  color: white;
+  text-align: right;
+}
